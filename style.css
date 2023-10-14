@@ -1,0 +1,43 @@
+/* Author: Piyush Kant
+Id: C0893688 */
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.main-grid{
+    display: grid;
+    margin: 0 auto;
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    border: 2px solid black;
+    margin-top: 2rem;
+}
+
+.main-grid-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-grid-flex{
+    flex: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-grid-item2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-left: 2px solid black;
+}
